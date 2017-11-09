@@ -34,20 +34,22 @@ Two-wheeled drive
     
     To process the encoder ticks count into more useful control parameters, we develop a motion equation to derive the travel distance and angle of robot. It’s a pretty basic set of equation using some trigonometric properties.
     
-    `void compute(){
-  change_left =input_left -last_input_left ;
-  last_input_left =input_left;
-  change_right=input_right-last_input_right;
-  last_input_right=input_right;
-  double s_left =get_curve_length(change_left) ;
-  double s_right=get_curve_length(change_right);
-  psi+=(s_right-s_left)/(robot_length); 
-  double distance=(s_left+s_right)/2;
-  double new_psi=psi;
-  if(psi<0) new_psi=2*Pi-psi;
-    x += distance*cos(new_psi); 
-    y += distance*sin(new_psi);
-}`
+    ```
+    void compute(){
+        change_left =input_left -last_input_left ;
+        last_input_left =input_left;
+        change_right=input_right-last_input_right;
+        last_input_right=input_right;
+        double s_left =get_curve_length(change_left) ;
+        double s_right=get_curve_length(change_right);
+        psi+=(s_right-s_left)/(robot_length); 
+        double distance=(s_left+s_right)/2;
+        double new_psi=psi;
+        if(psi<0) new_psi=2*Pi-psi;
+        x += distance*cos(new_psi); 
+        y += distance*sin(new_psi);
+    }
+    ```
  
 
 
