@@ -18,9 +18,11 @@ Two-wheeled drive
 * Rotary Encoder B106
 
 ### Research aspects
-1.	***MPU 9250 sensor***
+1. MPU 9250 sensor
     
-    blablabla
+    We choose the MPU 9250 because it serves as the robot’s absolute positioning reference. The MPU 9250 is a combination of 3 inertial sensors, the Accelerometer, Gyroscope & Magnetometer. It was able to give us the yaw, pitch and roll angle of the robot with its orientation based of the Earth’s magnetic heading. 
+    
+
 
 
 * [5 Product Create Form](www.google.com)
