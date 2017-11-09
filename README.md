@@ -6,6 +6,7 @@ Our control parameters include the robot's:
 * DIRECTION
 * TRAVEL DISTANCE
 * COORDINATE IN SPACE
+
 Note that this robot is not capable of sensing and responding to external stimuli. It is able to move in two ways: going straight for a
 specified distance and turning on spot for a specified angle. All movements are pre-programmed parameters. 
 
@@ -13,11 +14,12 @@ specified distance and turning on spot for a specified angle. All movements are 
 Two-wheeled drive
 
 ### Input Sensors:
-* [MPU 9250]
-* [Rotary Encoder B106]
+* MPU 9250
+* Rotary Encoder B106
 
 ## Research aspects
 * 1.	MPU 9250 sensor
+
 blablabla
 
 
