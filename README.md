@@ -17,10 +17,9 @@ Two-wheeled drive
 * MPU 9250
 * Rotary Encoder B106
 
-## Research aspects
-* 1.	MPU 9250 sensor
-
-blablabla
+### Research aspects
+1.	MPU 9250 sensor
+    blablabla
 
 
 * [5 Product Create Form](www.google.com)
